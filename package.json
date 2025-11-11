@@ -1,0 +1,19 @@
+{
+  "name": "@likemybread/name-generator",
+  "version": "1.0.1",
+  "description": "A multipurpose name generator",
+  "main": "name_generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LikeMyBread/name-generator-module.git"
+  },
+  "author": "Mike Bradley",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/LikeMyBread/name-generator-module/issues"
+  },
+  "homepage": "https://github.com/LikeMyBread/name-generator-module#readme"
+}
