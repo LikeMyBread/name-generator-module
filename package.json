@@ -1,6 +1,6 @@
 {
   "name": "@likemybread/name-generator",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A multipurpose name generator",
   "main": "name_generator.js",
   "scripts": {

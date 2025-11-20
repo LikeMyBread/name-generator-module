@@ -171,10 +171,15 @@ function generateName(nameTries, minLength) {
 const FANTASY_MIN_LENGTH = 5;
 
 export default function name(
-    fantasy=false,
-    first=true,
-    gender="any" // "androgynous", "female", "male", or "any"
+   args={
+    fantasy: false,
+    first: true,
+    gender: "any" // "androgynous", "female", "male", or "any"
+   }
 ) {
+    const fantasy = args.fantasy;
+    const first = args.first;
+    const gender = args.gender;
     if (fantasy) {
         if (first) {
             if (gender === "androgynous") {
